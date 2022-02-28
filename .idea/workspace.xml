@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ada2dc97-122a-43b5-b729-6c5c5a861c77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/admin/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/admin/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/960.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/facebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/fancy-button/fancy-button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/grumble/grumble.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/ie.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/ie6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/jquery.jqplot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/stylelogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/table/demo_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/table/demo_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/table/demo_table_jui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.resizable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.selectable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/base/jquery.ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_glass_75_ffffff_1x400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery-ui-1.8.16.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.accordion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.progressbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.resizable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.selectable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/css/themes/custom-theme/jquery.ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/accordian_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/application_double.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/arrow-asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/arrow-both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/arrow-desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/bg-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/bg-input-focus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/bg-lite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/block-actions-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/block-header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/border_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/btn-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button_gradient_effect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button_highlight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button_highlight_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/button_home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/check_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/checkbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/chekbox_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/chekbox_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/cog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/dark-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/gradient_red.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/header-repeat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/header_inner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/header_inner_corners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-charts-graphs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-direction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-form-style.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-gallery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-grid-tables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/icon-notifications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/img-profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/img_box_background_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/input-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/input-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/livelogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/login_corners.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/logout_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/menu_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/menu_border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/menu_l_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/menu_r_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/menu_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/nav-repeat2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/nav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/nav_divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/page_white_copy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/photo_60x60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/pluse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/quick_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/quick_l_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/quick_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/right.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/select-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/select-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/shine-effect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/sidemenu-repeat-hover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/sidemenu-repeat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/star_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/switch_minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/switch_plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/table/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-bl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-l-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-l-over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-r-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-r-over.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/img/textarea-tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/fancy-button/fancy-button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/jquery.jqplot.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.BezierCurveRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.barRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.blockRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.bubbleRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.canvasAxisTickRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.canvasOverlay.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.canvasTextRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.categoryAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.ciParser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.cursor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.dateAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.donutRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.dragable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.enhancedLegendRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.funnelRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.highlighter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.json2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.logAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.mekkoAxisRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.mekkoRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.meterGaugeRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.ohlcRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.pieRenderer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.pointLabels.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jqPlot/plugins/jqplot.trendline.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-1.6.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/external/jquery.bgiframe-2.1.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/external/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/external/jquery.metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/external/qunit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/external/qunit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.blind.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.bounce.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.clip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.drop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.explode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.fade.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.fold.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.highlight.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.pulsate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.scale.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.shake.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.slide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.effects.transfer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.accordion.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.button.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.dialog.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.draggable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.droppable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.mouse.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.position.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.resizable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.selectable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.tabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/jquery-ui/jquery.ui.widget.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/popup/jquery.facebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/pretty-photo/jquery.prettyPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/quick-sand/jquery.quicksand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/table/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/jquery.tinymce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/css/advhr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/js/rule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advhr/rule.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/css/advimage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/image.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/img/sample.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/js/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advimage/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/css/advlink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/js/advlink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlink/link.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlist/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/advlist/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autolink/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autolink/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autoresize/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autoresize/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autosave/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autosave/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/autosave/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/bbcode/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/bbcode/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/contextmenu/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/contextmenu/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/directionality/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/directionality/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/emotions.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-cool.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-cry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-embarassed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-foot-in-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-frown.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-innocent.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-laughing.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-money-mouth.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-sealed.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-surprised.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-tongue-out.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-undecided.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-wink.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/img/smiley-yell.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/js/emotions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/emotions/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/dialog.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/img/example.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/js/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example_dependency/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/example_dependency/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/css/fullpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/fullpage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/js/fullpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullpage/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullscreen/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullscreen/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/fullscreen/fullscreen.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/iespell/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/iespell/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/inlinepopups/template.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/insertdatetime/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/insertdatetime/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/layer/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/layer/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/legacyoutput/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/legacyoutput/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/lists/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/lists/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/css/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/js/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/js/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/media.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/media/moxieplayer.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/nonbreaking/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/nonbreaking/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/noneditable/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/noneditable/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/pagebreak/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/pagebreak/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/js/pastetext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/js/pasteword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/pastetext.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/paste/pasteword.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/preview/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/preview/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/preview/example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/preview/jscripts/embed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/print/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/print/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/save/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/save/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/css/searchreplace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/js/searchreplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/searchreplace/searchreplace.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/spellchecker/css/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/spellchecker/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/spellchecker/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/spellchecker/img/wline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/css/props.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/js/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/style/props.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/tabfocus/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/tabfocus/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/cell.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/css/cell.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/css/row.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/js/cell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/js/merge_cells.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/js/row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/js/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/merge_cells.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/row.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/table/table.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/blank.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/css/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/template/template.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/visualchars/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/visualchars/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/wordcount/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/wordcount/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/abbr.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/acronym.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/attributes.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/cite.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/css/attributes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/css/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/del.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/editor_plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/editor_plugin_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/ins.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/abbr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/acronym.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/cite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/del.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/element_common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/js/ins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/plugins/xhtmlxtras/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/about.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/anchor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/charmap.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/color_picker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/editor_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/editor_template_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/image.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/colorpicker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/flash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/iframe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/quicktime.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/realmedia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/shockwave.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/trans.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/video.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/img/windowsmedia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/charmap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/color_picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/js/source_editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/langs/en_dlg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/link.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/shortcuts.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/items.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/menu_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/menu_check.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/progress.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/img/tabs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/default/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/highcontrast/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/highcontrast/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/highcontrast/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/img/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/ui_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/skins/o2k7/ui_silver.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/advanced/source_editor.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/editor_template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/editor_template_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/img/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/langs/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/skins/default/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/skins/default/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/skins/o2k7/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/skins/o2k7/img/button_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/themes/simple/skins/o2k7/ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/tiny_mce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/tiny_mce_popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/tiny_mce_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/utils/editable_selects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/utils/form_utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/utils/mctabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/admin/js/tiny-mce/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/css/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/css/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/about-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/arrow_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/arrows.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/body_bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/button-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/discount-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/down-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/drop_arrow-hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/drop_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/feature-pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/feature-pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/feature-pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/feature-pic4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/footer-bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/gradient_light-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/header_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/header_cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/large-button-overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/new-pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/new-pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/new-pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/pic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/pic4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/preview-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/preview-img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/preview-img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/preview-img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/preview-img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/rating.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/tag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/team4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/images/youtube.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquery.flexslider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/jquerymain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/menu-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/move-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/nav-hover.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/front-end/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/Validator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/NOIMAGE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409400jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409441.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409601.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409606.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409696.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409733.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409753.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409796.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409807.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409837.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409875.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409913.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409933.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409936.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409951.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642409968.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642410490.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642410572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642410650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642410681.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642410747.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642411132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/avatar/thedc_123-1642411574.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/58qfu5qd07c3v303dt8nu768af.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/ba72sqflbcp9n60otglb6egkcd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/l5esgfq1v70bkgklokesvtbm5t.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/rc7dk30o7o5e506kfd9ful3v4u.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/sess_ba72sqflbcp9n60otglb6egkcd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/sess_l5esgfq1v70bkgklokesvtbm5t" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/sess_rc7dk30o7o5e506kfd9ful3v4u" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/sess_u6flabniie8bshbudrsi6jr78q" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session/u6flabniie8bshbudrsi6jr78q.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/catadd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/catlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/changepassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/copyright.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/inbox.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/master.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/layouts/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/productadd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/productlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/slideradd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/sliderlist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/slogan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/social.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/user/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/user/edit-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/user/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/user/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/auth/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/auth/script.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/layouts/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/layouts/slider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/front-end/topbrands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/front-end/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/front-end/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/front-end/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/layouts/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/session/sess_58qfu5qd07c3v303dt8nu768af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/layouts/master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/front-end/layouts/script.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/css.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/header.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/slider.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/master.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/products.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/script.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/views/front-end/layouts/footer.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="23MBXNAipbmJrR3zs6g5l5I6jmG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\test.mvc\views\front-end" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\test.mvc" />
+      <recent name="C:\laragon\www\test.mvc\libs" />
+      <recent name="C:\laragon\www\test.mvc\Controllers\front-end" />
+      <recent name="C:\laragon\www\test.mvc\views\front-end" />
+      <recent name="C:\laragon\www\test.mvc\Controllers\admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ada2dc97-122a-43b5-b729-6c5c5a861c77" name="Changes" comment="" />
+      <created>1641534122133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641534122133</updated>
+      <workItem from="1641534129310" duration="676000" />
+      <workItem from="1641535157293" duration="408000" />
+      <workItem from="1641536072684" duration="6320000" />
+      <workItem from="1641783172127" duration="4436000" />
+      <workItem from="1641792546593" duration="4855000" />
+      <workItem from="1642041356780" duration="3020000" />
+      <workItem from="1642051715777" duration="2777000" />
+      <workItem from="1642055902136" duration="5847000" />
+      <workItem from="1642071325434" duration="6055000" />
+      <workItem from="1642345734788" duration="1161000" />
+      <workItem from="1642351770989" duration="3124000" />
+      <workItem from="1642382169599" duration="2643000" />
+      <workItem from="1642398089220" duration="3186000" />
+      <workItem from="1642401329510" duration="6500000" />
+      <workItem from="1645496142694" duration="5505000" />
+      <workItem from="1645545266800" duration="4488000" />
+      <workItem from="1645582855654" duration="994000" />
+      <workItem from="1645584501887" duration="7912000" />
+      <workItem from="1645592537542" duration="5498000" />
+      <workItem from="1645599870981" duration="449000" />
+      <workItem from="1645600915807" duration="11873000" />
+      <workItem from="1646015318242" duration="2233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="67" key="#CLI_Interpreters" timestamp="1645500838671">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="67" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1645500838671" />
+    <state x="1038" y="278" key="#Notifications" timestamp="1642351816905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1038" y="278" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1642351816905" />
+    <state x="475" y="55" key="#PHP" timestamp="1645500840337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="55" key="#PHP/0.0.1536.824@0.0.1536.824" timestamp="1645500840337" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645591520447">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1645591520447" />
+    <state x="465" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1645599912912">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1645599912912" />
+    <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1645608697504">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="883" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1645608697504" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1645601170715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1645601170715" />
+    <state x="604" y="336" key="NewPhpFileDialog" timestamp="1642400811161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1642400811161" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1642407125173">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1642407125173" />
+    <state x="809" y="189" key="run.anything.popup" timestamp="1645601597710">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="809" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1645601597710" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1645501013498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1645501013498" />
+  </component>
+</project>
