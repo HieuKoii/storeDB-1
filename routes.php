@@ -185,6 +185,21 @@ const CONTROLLERS = array(
         'use'     => 'Admin/UsersController',
         'action'  => 'index'
     ],
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/show-form-edit',
+        'name'    => 'admin.users.show-form-edit',
+        'use'     => 'Admin/UsersController',
+        'action'  => 'showFormEdit'
+    ],
+
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/delete',
+        'name'    => 'admin.users.delete',
+        'use'     => 'Admin/UsersController',
+        'action'  => 'delete'
+    ],
 
     //  TITLE & SLOGAN
     [

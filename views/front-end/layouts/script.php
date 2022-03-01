@@ -1,5 +1,4 @@
 <script src="/assets/front-end/js/jquerymain.js"></script>
-
 <script src="/assets/front-end/js/script.js" type="text/javascript"></script>
 <script type="text/javascript" src="/assets/front-end/js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="/assets/front-end/js/nav.js"></script>

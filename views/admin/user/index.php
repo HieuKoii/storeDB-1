@@ -97,10 +97,9 @@ Trang chủ
 </div>
 <?php endblock() ?>
 <?php startblock('script') ?>
-
+    <?php include('views/admin/layouts/script.php')?>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.2/js/dataTables.fixedColumns.min.js"></script>
-    <?php include('views/admin/layouts/script.php')?>
     <?php include('views/admin/user/script.php')?>
     <script>
         $(document).ready(function(){

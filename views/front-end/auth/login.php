@@ -24,8 +24,6 @@
 <?php startblock('content') ?>
 <div class="col-2">
 </div>
-<div class="col-2">
-</div>
 <div class="col-8">
     <div class="row">
         <!--    LOGIN FORM-->
@@ -66,7 +64,7 @@
 
         <!--    REGISTER FORM-->
         <div class="col-6">
-            <form action="<?php echo Route::name('auth.register');?>" method="POST"  id="register-form1">
+            <form action="<?php echo Route::name('auth.register');?>" method="POST"  id="register-form">
                 <div class="row form-group">
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
@@ -134,9 +132,6 @@
                 </div>
 
 
-
-
-
                 <div class="row form-group">
                     <button class="btn btn-info btn-block" type="submit">
                         ĐĂNG KÝ
@@ -154,9 +149,8 @@
 </div>
 <?php endblock() ?>
 
-
-
 <?php startblock('script') ?>
+    <?php include 'views/front-end/layouts/script.php' ?>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js" integrity="sha512-Vp2UimVVK8kNOjXqqj/B0Fyo96SDPj9OCSm1vmYSrLYF3mwIOBXh/yRZDVKo8NemQn1GUjjK0vFJuCSCkYai/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <?php include 'views/front-end/auth/script.php' ?>
     <script>
@@ -166,7 +160,6 @@
         });
     </script>
 <?php endblock() ?>
-
 
 
 
