@@ -98,7 +98,7 @@
 
 
 <?php startblock('script') ?>
-
+    <?php include 'views/front-end/layouts/script.php' ?>
     <script type="text/javascript">
         function initEditUserForm(){
 
