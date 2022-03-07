@@ -5,7 +5,7 @@
  */
 
 require_once('Controllers/Controller.php');
-require_once('Models/User.php');
+
 
 class HomeController extends Controller{
 
@@ -13,7 +13,7 @@ class HomeController extends Controller{
         parent::__construct();
     }
 
-    public function index(){
+    public function admin(){
 
         return $this->view('admin/index');
     }

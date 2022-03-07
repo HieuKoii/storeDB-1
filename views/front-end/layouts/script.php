@@ -1,15 +1,7 @@
-<script src="/assets/front-end/js/jquerymain.js"></script>
-<script src="/assets/front-end/js/script.js" type="text/javascript"></script>
-<script type="text/javascript" src="/assets/front-end/js/jquery-1.7.2.min.js"></script>
-<script type="text/javascript" src="/assets/front-end/js/nav.js"></script>
-<script type="text/javascript" src="/assets/front-end/js/move-top.js"></script>
-<script type="text/javascript" src="/assets/front-end/js/easing.js"></script>
-<script type="text/javascript" src="/assets/front-end/js/nav-hover.js"></script>
+
+
 
 <script type="text/javascript">
-    $(document).ready(function($){
-        $('#dc_mega-menu-orange').dcMegaMenu({rowItems:'4',speed:'fast',effect:'fade'});
-    });
 
     $.ajaxSetup({
         dataFilter: function(data){

@@ -115,4 +115,18 @@ class Model{
         },$listModels);
     }
 
+    public function getListCate($statements=[], $addQuery = ''){
+
+        $statementsText = empty($statements) ? "WHERE" :
+            "WHERE ".implode(' AND ',$statements). " AND";
+
+        $query = "SELECT * FROM {$this->table} ".$statementsText." ISNULL(deleted_at) ".$addQuery;
+
+        $listModels = $this->db->query($query)->fetchAll();
+        return array_map(function($model){
+            $category = new Category();
+            $category->setAttributes($model);
+            return $category;
+        },$listModels);
+    }
 }

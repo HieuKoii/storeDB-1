@@ -21,7 +21,7 @@
                             <p>Brand:<span>Samsnumg</span></p>
                         </div>
                         <div class="add-cart">
-                            <form action="cart.php" method="post">
+                            <form action="<?php echo Route::name('cart');?>" method="post">
                                 <input type="number" class="buyfield" name="" value="1"/>
                                 <input type="submit" class="buysubmit" name="submit" value="Buy Now"/>
                             </form>
@@ -37,7 +37,7 @@
                 <div class="rightsidebar span_3_of_1">
                     <h2>CATEGORIES</h2>
                     <ul>
-                        <li><a href="productbycat.php">Mobile Phones</a></li>
+                        <li><a href="productbycat">Mobile Phones</a></li>
                         <li><a href="productbycat.php">Desktop</a></li>
                         <li><a href="productbycat.php">Laptop</a></li>
                         <li><a href="productbycat.php">Accessories</a></li>

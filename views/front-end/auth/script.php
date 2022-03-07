@@ -1,5 +1,27 @@
 <script>
+    // function registerForm(formId){
+    //     var form = $('#'+formId);
 
+    //     // tổng hợp dữ liệu từ form
+    //     var dataSend = {
+    //         'username' : form.find('.username').first().val()
+    //     };
+
+    //     // gửi ajax
+    //     $.ajax({
+    //         url: "<?php echo Route::name('auth.register');?>",
+    //         type: "POST",
+    //         data: dataSend,
+    //         success: function (data) {
+    //             var data = $.parseJSON(data);
+    //             console.log(data);
+    //             console.log(data.username);
+    //         },
+    //         error: function () {
+
+    //         }
+    //     });
+    // }
 
     function validateRegisterForm(){
 

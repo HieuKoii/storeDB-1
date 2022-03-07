@@ -10,7 +10,7 @@ const CONTROLLERS = array(
         'action'  => 'index'
     ],
 
-    //------------------- FRONT-END -----------------//
+    //-------------------------------- FRONT-END --------------------------//
 
 
     //HOME
@@ -161,12 +161,19 @@ const CONTROLLERS = array(
         'method'  => 'POST',
         'url'     => '/update-profile',
         'name'    => 'update-profile',
-        'use'     => 'AuthController',
+        'use'     => 'front-end/AuthController',
         'action'  => 'updateProfile'
     ],
 
 
-    //------------------- ADMIN -----------------//
+
+
+
+
+
+
+
+    //------------------------------------- ADMIN ----------------------------//
 
 
     //INDEX
@@ -175,31 +182,73 @@ const CONTROLLERS = array(
         'url'     => '/admin',
         'name'    => 'index-admin',
         'use'     => 'admin/HomeController',
-        'action'  => 'index'
+        'action'  => 'admin'
     ],
 
+    //////////         START ROUTES WORK WITH USER      //////////
+
+    //USER ADMIN
     [
         'method'  => 'GET',
         'url'     => '/admin/users',
         'name'    => 'admin.users',
-        'use'     => 'Admin/UsersController',
+        'use'     => 'admin/UsersController',
         'action'  => 'index'
     ],
+    //SHOW FORM EDIT USER
     [
         'method'  => 'POST',
         'url'     => '/admin/users/show-form-edit',
         'name'    => 'admin.users.show-form-edit',
-        'use'     => 'Admin/UsersController',
+        'use'     => 'admin/UsersController',
         'action'  => 'showFormEdit'
     ],
-
+    //SHOW FORM CREATE USER
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/show-form-edit',
+        'name'    => 'admin.users.show-form-create',
+        'use'     => 'admin/UsersController',
+        'action'  => 'showFormCreate'
+    ],
+    //UPDATE USER
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/update-user',
+        'name'    => 'admin.user.update',
+        'use'     => 'admin/UsersController',
+        'action'  => 'updateUser'
+    ],
+    //DELETE USER
     [
         'method'  => 'POST',
         'url'     => '/admin/users/delete',
         'name'    => 'admin.users.delete',
-        'use'     => 'Admin/UsersController',
+        'use'     => 'admin/UsersController',
         'action'  => 'delete'
     ],
+    //CREATE USER FROM ADMIN
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/create',
+        'name'    => 'create.user',
+        'use'     => 'admin/UsersController',
+        'action'  => 'create_user'
+    ],
+
+    //////////         END ROUTES WORK WITH USER      //////////
+
+    //////////         START ROUTES WORK WITH CATEGORY      //////////
+    //SHOW CATEGORIES
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories',
+        'name'    => 'admin.categories',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'index'
+    ],
+    //////////         END ROUTES WORK WITH CATEGORY      //////////
+
 
     //  TITLE & SLOGAN
     [
@@ -275,17 +324,12 @@ const CONTROLLERS = array(
     ],
 
 
+
     //----------------------------------------------------------------//
 
 
 
-    [
-        'method'  => 'GET',
-        'url'     => '/users/{user_id}/edit',
-        'name'    => 'users.edit',
-        'use'     => 'UserController',
-        'action'  => 'edit'
-    ],
+
 
 
 ); 

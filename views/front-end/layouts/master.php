@@ -51,6 +51,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.0/sweetalert2.all.min.js" integrity="sha512-oTE6Gwi026OvpTsIUmeIA4+Q3DfI/m0ejEbpd1+qDxngi14bMVH249Z5UJVvKSHeSDmlBtmhtRB+HXySaSCp9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.4.0/sweetalert2.js" integrity="sha512-3UUOb5j6zHTsx9k8oJ5XHogT2u2miftt8NVKnOICV9Iz6x/WIgJurczwfOVcEZUHWqrBSp0vkc+ZMKfHRd2p2A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
         <?php startblock('script') ?>
             <?php include 'views/front-end/layouts/script.php' ?>
         <?php endblock() ?>

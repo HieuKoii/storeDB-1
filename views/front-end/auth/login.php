@@ -5,7 +5,7 @@
 <?php endblock() ?>
 
 <?php startblock('css') ?>
-<?php include 'views/front-end/layouts/css.php'?>
+    <?php include 'views/front-end/layouts/css.php'?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css"/>
     <style type="text/css">
         .help-block{
@@ -155,7 +155,7 @@
     <?php include 'views/front-end/auth/script.php' ?>
     <script>
         $(document).ready(function(){
-            validateRegisterForm();
+            // validateRegisterForm();
             validateLoginForm();
         });
     </script>

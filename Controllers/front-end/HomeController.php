@@ -17,8 +17,8 @@ class HomeController extends Controller{
         $_SESSION['save'] = '1';
         return $this->view('front-end/index');
     }
-    public function cart(){
-
+    public  function  cart(){
+        dump($this->data);
         return $this->view('front-end/cart');
     }
     public function products(){

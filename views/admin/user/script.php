@@ -23,6 +23,31 @@
         });
 
     }
+    function showFormCreate(){
+        showLoading();
+        $.ajax({
+            url: "<?php echo Route::name('admin.users.show-form-create');?>",
+            type: "POST",
+            data: {
+
+            },
+            success: function (data) {
+                hideLoading();
+                if(data.message == undefined){
+                    $('#edit-user').find('.modal-content').html(data);
+                }else{
+                    alert(data.message, "error");
+                }
+            },
+            error: function (e) {
+                hideLoading();
+                alert("Vui lòng thực hiện lại", "error");
+            }
+        });
+
+    }
+
+
 
     function deleteUser(userId){
         showLoading();
