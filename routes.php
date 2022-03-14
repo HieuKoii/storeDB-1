@@ -223,7 +223,7 @@ const CONTROLLERS = array(
     [
         'method'  => 'POST',
         'url'     => '/admin/users/delete',
-        'name'    => 'admin.users.delete',
+        'name'    => 'admin.user.delete',
         'use'     => 'admin/UsersController',
         'action'  => 'delete'
     ],
@@ -241,13 +241,59 @@ const CONTROLLERS = array(
     //////////         START ROUTES WORK WITH CATEGORY      //////////
     //SHOW CATEGORIES
     [
-        'method'  => 'POST',
+        'method'  => 'GET',
         'url'     => '/admin/categories',
         'name'    => 'admin.categories',
         'use'     => 'admin/CategoriesController',
         'action'  => 'index'
     ],
+    //SHOW FORM EDIT CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/show-form-edit',
+        'name'    => 'admin.category.show-form-edit',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'showFormEdit'
+    ],
+    //UPDATE CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/update-category',
+        'name'    => 'admin.category.update',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'updateCategory'
+    ],
+    //DELETE CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/delete',
+        'name'    => 'admin.category.delete',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'delete'
+    ],
+
+    //CREATE CATEGORY FROM ADMIN
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/create',
+        'name'    => 'create.category',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'createCategory'
+    ],
     //////////         END ROUTES WORK WITH CATEGORY      //////////
+
+
+    //////////         START ROUTES WORK WITH POST      //////////
+    //SHOW CATEGORIES
+    [
+        'method'  => 'GET',
+        'url'     => '/admin/posts',
+        'name'    => 'admin.posts',
+        'use'     => 'admin/PostsController',
+        'action'  => 'index'
+    ],
+
+    //////////         END ROUTES WORK WITH POST      //////////
 
 
     //  TITLE & SLOGAN
@@ -290,7 +336,7 @@ const CONTROLLERS = array(
         'use'     => 'admin/HomeController',
         'action'  => 'sliderlist'
     ],
-    // CATEGORY ADD
+    //
     [
         'method'  => 'GET',
         'url'     => '/admin/addcat',
@@ -298,14 +344,7 @@ const CONTROLLERS = array(
         'use'     => 'admin/HomeController',
         'action'  => 'addcat'
     ],
-    // CATEGORY LIST
-    [
-        'method'  => 'GET',
-        'url'     => '/admin/catlist',
-        'name'    => 'catlist',
-        'use'     => 'admin/HomeController',
-        'action'  => 'catlist'
-    ],
+
     // ADD PRODUCT
     [
         'method'  => 'GET',

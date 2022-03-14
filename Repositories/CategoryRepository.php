@@ -1,15 +1,14 @@
 <?php
 
 class CategoryRepository{
-    public function createUser($data)
+    public function createCategory($data)
     {
 
 
 
         $dataCreate = [
             'name'      => $data['name'],
-            'alias'     => $data['alias'],
-            'parent_id' => $data['parent_id'],
+            'parentId' => $data['parentId'],
         ];
 
 
@@ -23,8 +22,7 @@ class CategoryRepository{
         $dataUpdate = array(
 
             'name'         => isset($data['name']) ? $data['name'] : $category->name,
-            'alias'    => isset($data['alias']) ? $data['alias'] : $category->alias,
-            'parent_id'    => isset($data['parent_id']) ? $data['parent_id'] : $category->parent_id,
+            'parentId'    => isset($data['parentId']) ? $data['parentId'] : $category->parentId,
         );
 
         $category->update($dataUpdate);
@@ -32,7 +30,8 @@ class CategoryRepository{
         return $category;
     }
 
+
     public function getAllCategory(){
-        return (new Category())->getList([],"ORDER BY 'name'");
+        return (new Category())->getListCategory([],"ORDER BY 'name'");
     }
 }

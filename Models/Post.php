@@ -1,14 +1,18 @@
 <?php
 require_once('Models/Model.php');
 
-class Category extends Model{
-    protected $table = 'categories';
+class Post extends Model{
+    protected $table = 'posts';
 
 
     protected $attributes = [
 
-        'name',
-        'parentId'
+        'title',
+        'content',
+        'link',
+        'created_at',
+        'updated_at',
+        'deleted_at'
     ];
 
     public function __construct($data = [])

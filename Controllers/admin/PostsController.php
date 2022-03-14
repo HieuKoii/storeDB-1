@@ -1,26 +1,26 @@
 <?php
 
 require_once('Controllers/Controller.php');
-require_once('Repositories/CategoryRepository.php');
-require_once('Models/Category.php');
+require_once('Repositories/PostRepository.php');
+require_once('Models/Post.php');
 require_once('Models/User.php');
 require_once('libs/Validator.php');
 require_once('Repositories/Authenticate.php');
 
-class CategoriesController extends Controller {
-    protected $categoryRepository;
+class PostsController extends Controller {
+    protected $postRepository;
     protected $repository;
 
     public function __construct(){
         parent::__construct();
-        $this->categoryRepository = new CategoryRepository();
-        $this->repository = new CategoryRepository();
+        $this->postRepository = new PostRepository();
+        $this->repository = new PostRepository();
     }
 
     public function index(){
-        $categories = $this->categoryRepository->getAllCategory();
-        return $this->view('admin/category2/index',compact('categories'));
-//        return $this->view('admin/category/index',compact('categories'));
+        //$categories = $this->categoryRepository->getAllCategory();
+        //return $this->view('admin/category2/index',compact('categories'));
+        return $this->view('admin/post/index');
     }
 
     public function showFormEdit(){

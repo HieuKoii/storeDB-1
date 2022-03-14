@@ -5,7 +5,10 @@
  */
 
 require_once('Controllers/Controller.php');
-
+require_once('libs/Validator.php');
+require_once('Repositories/UserRepository.php');
+require_once('Repositories/Authenticate.php');
+require_once('Models/User.php');
 
 class HomeController extends Controller{
 

@@ -75,7 +75,7 @@ class UsersController extends Controller
         $this->data=array_merge($this->data,$name);
 
         $user=$this->repository->updateUser($user, $this->data);
-        //dd($user);
+
 
         return $this->response([
             'code' => 200,

@@ -100,6 +100,8 @@ class Model{
         ]);
     }
 
+
+
     public function getList($statements=[], $addQuery = ''){
 
         $statementsText = empty($statements) ? "WHERE" :
@@ -115,12 +117,12 @@ class Model{
         },$listModels);
     }
 
-    public function getListCate($statements=[], $addQuery = ''){
+    public function getListCategory($statements=[], $addQuery = ''){
 
         $statementsText = empty($statements) ? "WHERE" :
             "WHERE ".implode(' AND ',$statements). " AND";
 
-        $query = "SELECT * FROM {$this->table} ".$statementsText." ISNULL(deleted_at) ".$addQuery;
+        $query = "SELECT * FROM {$this->table} WHERE ISNULL(deleted_at) ".$addQuery;
 
         $listModels = $this->db->query($query)->fetchAll();
         return array_map(function($model){
@@ -129,4 +131,21 @@ class Model{
             return $category;
         },$listModels);
     }
+    public function getListPost($statements=[], $addQuery = ''){
+
+        $statementsText = empty($statements) ? "WHERE" :
+            "WHERE ".implode(' AND ',$statements). " AND";
+
+        $query = "SELECT * FROM {$this->table} ".$statementsText." ISNULL(deleted_at) ".$addQuery;
+
+        $listModels = $this->db->query($query)->fetchAll();
+        return array_map(function($model){
+            $post = new Post();
+            $post->setAttributes($model);
+            return $post;
+        },$listModels);
+    }
+
+
+    
 }
