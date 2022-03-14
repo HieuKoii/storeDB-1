@@ -7,18 +7,31 @@ Trang chủ
 <?php startblock('css') ?>
 
     <?php include('views/admin/layouts/css.php')?>
-    <?php include('views/admin/user/css.php')?>
+
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.4/dt-1.10.13/fc-3.2.2/fh-3.1.2/r-2.1.0/sc-1.4.2/datatables.min.css" />
+    <?php include('views/admin/user/css.php')?>
 <?php endblock() ?>
 
 <?php startblock('content') ?>
 <div class="grid_10">
     <div class="box round first grid">
-        <h2> Dashbord</h2>
+        <h2> Users List</h2>
+
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#create-user" onclick="showFormCreate();">
+            Tạo mới
+        </button>
+        <!--End trigger-->
+
+
+        <!-- TABLE LIST USERS -->
         <div style="width: 100%;">
+
             <table class="table table-bordered table-hover users-table" id="list-users">
                 <thead>
+
                 <tr>
+
                     <th>
                         STT
                     </th>
@@ -85,6 +98,8 @@ Trang chủ
                 </tbody>
             </table>
         </div>
+        <!--END TABLE LIST USERS-->
+
 
         <div class="modal fade" id="edit-user" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -94,16 +109,25 @@ Trang chủ
             </div>
         </div>
     </div>
+    <div class="modal" id="create-user" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <?php include "views/admin/user/create-user.php" ?>
+            </div>
+        </div>
+    </div>
 </div>
 <?php endblock() ?>
 <?php startblock('script') ?>
-    <?php include('views/admin/layouts/script.php')?>
+    <?php include('views/front-end/layouts/script.php')?>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/fixedcolumns/3.2.2/js/dataTables.fixedColumns.min.js"></script>
     <?php include('views/admin/user/script.php')?>
-    <script>
+
+    <script type="text/javascript">
         $(document).ready(function(){
             initDatatable($('#list-users'),true);
         });
+
     </script>
 <?php endblock() ?>

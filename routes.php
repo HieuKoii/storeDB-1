@@ -10,7 +10,7 @@ const CONTROLLERS = array(
         'action'  => 'index'
     ],
 
-    //------------------- FRONT-END -----------------//
+    //-------------------------------- FRONT-END --------------------------//
 
 
     //HOME
@@ -161,12 +161,19 @@ const CONTROLLERS = array(
         'method'  => 'POST',
         'url'     => '/update-profile',
         'name'    => 'update-profile',
-        'use'     => 'AuthController',
+        'use'     => 'front-end/AuthController',
         'action'  => 'updateProfile'
     ],
 
 
-    //------------------- ADMIN -----------------//
+
+
+
+
+
+
+
+    //------------------------------------- ADMIN ----------------------------//
 
 
     //INDEX
@@ -175,31 +182,119 @@ const CONTROLLERS = array(
         'url'     => '/admin',
         'name'    => 'index-admin',
         'use'     => 'admin/HomeController',
-        'action'  => 'index'
+        'action'  => 'admin'
     ],
 
+    //////////         START ROUTES WORK WITH USER      //////////
+
+    //USER ADMIN
     [
         'method'  => 'GET',
         'url'     => '/admin/users',
         'name'    => 'admin.users',
-        'use'     => 'Admin/UsersController',
+        'use'     => 'admin/UsersController',
         'action'  => 'index'
     ],
+    //SHOW FORM EDIT USER
     [
         'method'  => 'POST',
         'url'     => '/admin/users/show-form-edit',
         'name'    => 'admin.users.show-form-edit',
-        'use'     => 'Admin/UsersController',
+        'use'     => 'admin/UsersController',
         'action'  => 'showFormEdit'
     ],
-
+    //SHOW FORM CREATE USER
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/show-form-edit',
+        'name'    => 'admin.users.show-form-create',
+        'use'     => 'admin/UsersController',
+        'action'  => 'showFormCreate'
+    ],
+    //UPDATE USER
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/update-user',
+        'name'    => 'admin.user.update',
+        'use'     => 'admin/UsersController',
+        'action'  => 'updateUser'
+    ],
+    //DELETE USER
     [
         'method'  => 'POST',
         'url'     => '/admin/users/delete',
-        'name'    => 'admin.users.delete',
-        'use'     => 'Admin/UsersController',
+        'name'    => 'admin.user.delete',
+        'use'     => 'admin/UsersController',
         'action'  => 'delete'
     ],
+    //CREATE USER FROM ADMIN
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/users/create',
+        'name'    => 'create.user',
+        'use'     => 'admin/UsersController',
+        'action'  => 'create_user'
+    ],
+
+    //////////         END ROUTES WORK WITH USER      //////////
+
+    //////////         START ROUTES WORK WITH CATEGORY      //////////
+    //SHOW CATEGORIES
+    [
+        'method'  => 'GET',
+        'url'     => '/admin/categories',
+        'name'    => 'admin.categories',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'index'
+    ],
+    //SHOW FORM EDIT CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/show-form-edit',
+        'name'    => 'admin.category.show-form-edit',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'showFormEdit'
+    ],
+    //UPDATE CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/update-category',
+        'name'    => 'admin.category.update',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'updateCategory'
+    ],
+    //DELETE CATEGORY
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/delete',
+        'name'    => 'admin.category.delete',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'delete'
+    ],
+
+    //CREATE CATEGORY FROM ADMIN
+    [
+        'method'  => 'POST',
+        'url'     => '/admin/categories/create',
+        'name'    => 'create.category',
+        'use'     => 'admin/CategoriesController',
+        'action'  => 'createCategory'
+    ],
+    //////////         END ROUTES WORK WITH CATEGORY      //////////
+
+
+    //////////         START ROUTES WORK WITH POST      //////////
+    //SHOW CATEGORIES
+    [
+        'method'  => 'GET',
+        'url'     => '/admin/posts',
+        'name'    => 'admin.posts',
+        'use'     => 'admin/PostsController',
+        'action'  => 'index'
+    ],
+
+    //////////         END ROUTES WORK WITH POST      //////////
+
 
     //  TITLE & SLOGAN
     [
@@ -241,7 +336,7 @@ const CONTROLLERS = array(
         'use'     => 'admin/HomeController',
         'action'  => 'sliderlist'
     ],
-    // CATEGORY ADD
+    //
     [
         'method'  => 'GET',
         'url'     => '/admin/addcat',
@@ -249,14 +344,7 @@ const CONTROLLERS = array(
         'use'     => 'admin/HomeController',
         'action'  => 'addcat'
     ],
-    // CATEGORY LIST
-    [
-        'method'  => 'GET',
-        'url'     => '/admin/catlist',
-        'name'    => 'catlist',
-        'use'     => 'admin/HomeController',
-        'action'  => 'catlist'
-    ],
+
     // ADD PRODUCT
     [
         'method'  => 'GET',
@@ -275,17 +363,12 @@ const CONTROLLERS = array(
     ],
 
 
+
     //----------------------------------------------------------------//
 
 
 
-    [
-        'method'  => 'GET',
-        'url'     => '/users/{user_id}/edit',
-        'name'    => 'users.edit',
-        'use'     => 'UserController',
-        'action'  => 'edit'
-    ],
+
 
 
 ); 

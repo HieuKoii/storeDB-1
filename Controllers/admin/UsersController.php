@@ -5,21 +5,27 @@
  */
 
 require_once('Controllers/Controller.php');
+require_once('libs/Validator.php');
 require_once('Repositories/UserRepository.php');
-
+require_once('Repositories/Authenticate.php');
 require_once('Models/User.php');
 
 class UsersController extends Controller
 {
+    protected $userRepository;
+    protected $authenticate;
     protected $repository;
 
     public function __construct(){
         parent::__construct();
+        $this->userRepository = new UserRepository();
+        $this->authenticate = new Authenticate();
         $this->repository = new UserRepository();
     }
 
     public function index(){
         $users = $this->repository->getAllUser();
+
         return $this->view('admin/user/index', compact('users'));
     }
 
@@ -51,5 +57,56 @@ class UsersController extends Controller
             'code'    => 200,
             'message' => 'Xóa người dùng thành công'
         ]);
+    }
+
+    public function updateUser(){
+        $user = (new User())->find($this->data['id']);
+        if(is_null($user)){
+            return $this->response([
+                'code'    => 404,
+                'message' => 'User not found'
+            ]);
+        }
+
+
+        //TODO SOMETHING: validate data
+        $name=$this->repository->analysisName($this->data['fullname']);
+        // nối mảng
+        $this->data=array_merge($this->data,$name);
+
+        $user=$this->repository->updateUser($user, $this->data);
+
+
+        return $this->response([
+            'code' => 200,
+            'message' => 'Edit successfully'
+        ]);
+    }
+    public function showFormCreate(){
+
+        return $this->view('admin/user/create-user');
+
+    }
+
+    public function create_user(){
+
+        $validate = Validator::validateEmpty($this->data, [
+            'username','password','re_password','fullname','date_of_birth'
+        ]);
+
+
+        if(!$validate['valid']){
+            return $this->response([
+                'message' => $validate['message']
+            ]);
+        }
+
+        // tạo tài khoản
+        $user = $this->userRepository->createUser($this->data);
+
+        // chuyển trang sửa thông tin người dùng
+        // kèm báo luôn kết quả : bạn đã tạo người dùng thành công
+
+        return $this->redirect(Route::name('admin.users'));
     }
 }

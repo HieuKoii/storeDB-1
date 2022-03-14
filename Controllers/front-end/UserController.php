@@ -28,7 +28,7 @@ class UserController extends Controller{
             ]);
         }
 
-        return $this->view('profile',compact('user'));
+        return $this->view('front-end/profile',compact('user'));
 
     }
 
